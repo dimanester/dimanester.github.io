@@ -1,0 +1,61 @@
+html, * {
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      background: linear-gradient(to top, #FFFFFF, #FF0000)
+}
+.wrapper {
+      width: 1500px;
+      height: 1000px;
+      margin: auto;
+      clear: both;
+      border: 3px solid white;
+}
+
+.header {
+      background-color: pink;
+      align-content: center;
+      height: 100px;
+      width: 1500px;
+}
+ 
+ .btn {
+      left: 560px;
+      margin-right: 10px;
+      float: left;
+      width: 70px;
+      position: relative;
+      height: 70px;
+      border: 3px black solid;
+}
+
+
+.left {
+      background-color: pink;
+      padding-left: 50px;
+      padding-top: 150px;
+      float: left;
+      width: 200px;
+      height: 700px;
+}
+ 
+.right {
+      background-color: pink;
+      float: right;
+      width: 1250px;
+      height: 850px;
+}
+ 
+.clear {
+      clear:both;
+}
+ 
+.footer {
+      background-color: pink;
+      padding: 0;
+      height: 50px;
+      width: 1500px;
+      text-align: center;
+}
