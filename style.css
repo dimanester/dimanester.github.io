@@ -4,58 +4,50 @@ html, * {
 }
 
 body {
-      background: linear-gradient(to top, #FFFFFF, #FF0000)
+      background: linear-gradient(to top, #FFFF00, #38ACEC);
+      margin: 0px;
 }
-.wrapper {
+
+#wrapper {
+      background: black;
       width: 1500px;
       height: 1000px;
       margin: auto;
       clear: both;
       border: 3px solid white;
 }
-
-.header {
-      background-color: pink;
-      align-content: center;
-      height: 100px;
+ 
+#header {
+      background: black;
+      height: 50px;
       width: 1500px;
+      color: white;
+      text-align: center;
 }
  
- .btn {
-      left: 560px;
-      margin-right: 10px;
+#left {
+      background: yellow;
       float: left;
-      width: 70px;
-      position: relative;
-      height: 70px;
-      border: 3px black solid;
-}
-
-
-.left {
-      background-color: pink;
-      padding-left: 50px;
-      padding-top: 150px;
-      float: left;
-      width: 200px;
-      height: 700px;
+      width: 100px;
+      height: 900px;
 }
  
-.right {
-      background-color: pink;
+#right {
+      background: #38ACEC;
       float: right;
-      width: 1250px;
-      height: 850px;
+      width: 1400px;
+      height: 900px;
 }
  
-.clear {
+#clear {
       clear:both;
 }
  
-.footer {
-      background-color: pink;
+#footer {
       padding: 0;
+      background: black;
       height: 50px;
       width: 1500px;
+      color: white;
       text-align: center;
 }
